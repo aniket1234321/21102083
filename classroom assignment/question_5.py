@@ -5,6 +5,6 @@ print(color)
 
 # part_2
 color = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-color[3] = 'purple'
-color[4] = "purple"
+del(color[3:5])
+color.insert(3,'purple')
 print(color)
