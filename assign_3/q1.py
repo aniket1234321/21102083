@@ -1,1 +1,3 @@
-print('(3+4)*5',(3+4)*5)
+a=int(input("enter a number : ")
+a=bin(b)
+print(a[2:])
